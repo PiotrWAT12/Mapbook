@@ -44,5 +44,23 @@ def delete_user(users: list) -> None:
             users.remove(user)
 
 
+
 # delete_user(data_of_users)
 # read(data_of_users)
+
+def update_user(users:list) -> None:
+
+    name:str=input("Enter a name of user to be modified: ")
+    for user in users:
+        if user['name'] == name:
+            new_name:str=input('enter new name: ')
+            new_surname:str=input('enter new surname: ')
+            new_posts:int=int(input('enter new number of posts: '))
+            new_location:str=input('enter new location: ')
+            user['name'] = new_name
+            user['surname'] = new_surname
+            user['posts'] = new_posts
+            user['location'] = new_location
+
+update_user(data_of_users)
+read(data_of_users)
