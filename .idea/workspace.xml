@@ -25,21 +25,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "PiotrWAT12"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PiotrWAT12&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/kamilsliwinski04/projekt_testowy_ks.git",
+    "url": "https://github.com/PiotrWAT12/Mapbook.git",
     "accountId": "b8c2f25a-21ef-4b5f-8a4f-efd2f0fcc282"
   }
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2grO8MXmLUMOesSZbKP0ms47rXs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,7 +50,7 @@
     "Python.Main1.executor": "Run",
     "Python.Mapbook12.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feat/crud",
+    "git-widget-placeholder": "feat",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,6 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716452069910</updated>
       <workItem from="1716452071011" duration="4643000" />
+      <workItem from="1716456785099" duration="404000" />
     </task>
     <task id="LOCAL-00001" summary="wip: add read function">
       <option name="closed" value="true" />
@@ -86,7 +87,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716455882182</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="wip: add read function">
+      <option name="closed" value="true" />
+      <created>1716456979685</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716456979685</updated>
+    </task>
+    <task id="LOCAL-00003" summary="wip: add read function">
+      <option name="closed" value="true" />
+      <created>1716457029640</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716457029640</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,7 +114,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feat" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
