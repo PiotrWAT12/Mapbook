@@ -8,7 +8,9 @@ data_of_users: list = [
     {'name': 'Sebastian', 'surname': 'Wątroba', 'posts': 6, 'location': 'Szynwałd'},
 ]
 print(f'Witaj {data_of_users[0]['name']}')
-def read(users:list)->None:
+
+
+def read(users: list) -> None:
     """
     this is a function to show users from a list
     :param users:
@@ -16,5 +18,6 @@ def read(users:list)->None:
     """
     for user in users[1:]:
         print(f'Twój znajomy: {user['name']},opublikował: {user["posts"]} ')
+
 
 read(data_of_users)
